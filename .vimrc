@@ -1,12 +1,11 @@
-execute pathogen#infect()
+call plug#begin()
 
-syntax on
-filetype plugin indent on
+Plug 'tpope/vim-sensible'
+Plug 'Quramy/tsuquyomi'
+Plug 'HerringtonDarkholme/yats'
 
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
+call plug#end()
 
-set ruler
-set nu
+" Make `jj` and `jk` throw you into normal mode
+inoremap jj <esc>
+inoremap jk <esc>
