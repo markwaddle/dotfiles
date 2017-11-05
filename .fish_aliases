@@ -1,0 +1,6 @@
+alias l "ls -alF"
+alias .. "cd .."
+alias git-root "cd (git rev-parse --show-toplevel)"
+alias ops "cd ~/src/github.com/suplari/ops/scripts"
+alias be "cd ~/src/github.com/suplari/backend"
+alias proto "cd ~/src/github.com/suplari/prototype"
