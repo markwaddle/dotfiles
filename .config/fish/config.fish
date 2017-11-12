@@ -1,5 +1,6 @@
 source ~/.fish_aliases
 source ~/.fish_variables
+source ~/.fish_private
 set -g theme_nerd_fonts yes
 set -g theme_show_exit_status yes
 
