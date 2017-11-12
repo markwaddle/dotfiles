@@ -1,5 +1,2 @@
-# Setup your Github Token
-set --export HOMEBREW_GITHUB_API_TOKEN "bb4b69a676db592db287456f23a0becfc3842b6b"
-
 set --export GOPATH /Users/mark
 set --export PATH $PATH $GOPATH/bin
